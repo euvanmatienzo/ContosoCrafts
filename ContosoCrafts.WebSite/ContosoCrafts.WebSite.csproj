@@ -10,4 +10,8 @@
     <None Include="..\.editorconfig" Link=".editorconfig" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Blazored.Modal" Version="7.1.0" />
+  </ItemGroup>
+
 </Project>

@@ -153,19 +153,24 @@ ul {
     background: linear-gradient(110deg, #252152 60%, #e9a8a6 60%);
 }
 
-
-
 .card-columns {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
 
-    .card-columns > .card {
-        flex: 0 0 32%;
-        margin: 0 2% 20px 0;
-    }
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-        .card-columns > .card:nth-child(3n) {
-            margin-right: 0;
-        }
+.card-img {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-body {
+    padding: 10px;
+}
