@@ -66,7 +66,9 @@
     "Url": "https://twitter.com/sailorhg/status/1090107740049952770",
     "Title": "Bubblesort Visualization",
     "Description": "Visualization of sailor scouts sorted by bubblesort algorithm by their planet\u0027s distance from the sun",
-    "Ratings": null
+    "Ratings": [
+      3
+    ]
   },
   {
     "Id": "sailorhg-corsage",
@@ -75,7 +77,9 @@
     "Url": "https://twitter.com/sailorhg/status/1090113666911891456",
     "Title": "Light-up Corsage",
     "Description": "Light-up corsage I made with my summer intern.",
-    "Ratings": null
+    "Ratings": [
+      5
+    ]
   },
   {
     "Id": "sailorhg-kit",
